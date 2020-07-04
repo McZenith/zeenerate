@@ -1,0 +1,11 @@
+{
+  "title": "High Communications Concept",
+  "debug": false,
+  "experiments": {},
+  "locale": "en",
+  "basename": "/",
+  "clientTopology": {
+    "staticsDomain": "static.parastorage.com",
+    "staticsBaseUrl": "https://highcdn.vercel.app/"
+  }
+}
