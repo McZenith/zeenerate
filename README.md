@@ -1,25 +1,21 @@
-# Generate your own project boilerplate with NodeJS
+# Here is a collection of templates that I use in development
 
-## Clone Repo
+## Wanna use what I am using? Follow the steps:
 
-```
-git clone https://github.com/onlinegurucool/generate-project-node.git
-```
+## 1.) Clone Repo
 
-## Install Dependncies 
+## 2.) Install Dependncies
 
 ```
-npm install 
+npm install
 ```
 
-## Install this package globally in your system
+## 3.) Install this package globally in your system
 
 ```
-npm link 
+npm link
 ```
 
-## Generate or *starproject* new project
+## 4.) zeenerate [project-name]
 
-
-> Learn more about how it works [here](https://medium.com/northcoders/creating-a-project-generator-with-node-29e13b3cd309)
-
+> Based on [here](https://medium.com/northcoders/creating-a-project-generator-with-node-29e13b3cd309)
