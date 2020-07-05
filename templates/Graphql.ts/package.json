@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "graphql server built with typescript",
+  "main": "./src/server.ts",
+  "scripts": {
+    "start": "ts-node ./src/server.ts",
+    "start:watch": "nodemon",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^14.0.14",
+    "apollo-server": "^2.15.1",
+    "graphql": "^15.2.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  }
+}
