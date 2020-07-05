@@ -8,7 +8,7 @@
     "start:watch": "nodemon",
     "build": "tsc"
   },
-  "author": "",
+  "author": "Isaiah Awotide",
   "license": "ISC",
   "dependencies": {
     "@types/graphql": "^14.5.0",
