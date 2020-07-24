@@ -1,0 +1,22 @@
+type Query {
+  me: [User]
+}
+
+type User {
+  email: String!
+  _id: ID
+  verified: Boolean
+  role: [String]
+}
+
+type LoginResponse {
+  accessToken: String!
+  user: User!
+}
+
+type Mutation {
+  register(email: String!, password: String!, confirmPassword: String!): Boolean
+  login(email: String!, password: String!): LoginResponse!
+  logout(logout: Boolean): Boolean!
+  revokeRefreshTokensForUser(userId: ID!): Boolean!
+}
