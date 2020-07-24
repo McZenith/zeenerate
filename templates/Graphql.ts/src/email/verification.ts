@@ -25,7 +25,7 @@ export const sendVerificationEmail = async (user: IUser) => {
 
   try {
     await transporter.sendMail({
-      from: 'nonreply@sandbox8590a4dfe0e54dce8b86169f58d33d24.mailgun.org',
+      from: 'Email here',
       to: user.email,
       subject: 'Email Verification',
       text: `your verification link is http://localhost:4000/verification/${verificationToken}`,
