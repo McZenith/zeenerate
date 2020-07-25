@@ -1,5 +1,10 @@
 # Here is a collection of templates that I use in development
 
+
+## To generate project with npx run:
+
+## npx zeenerate
+
 ## Wanna use what I am using? Follow the steps:
 
 ## 1.) Clone Repo
