@@ -6,6 +6,6 @@
   "basename": "/",
   "clientTopology": {
     "staticsDomain": "static.parastorage.com",
-    "staticsBaseUrl": "https://highcdn.vercel.app/"
+    "staticsBaseUrl": "https://d2wdkrcmsl5gp5.cloudfront.net/"
   }
 }

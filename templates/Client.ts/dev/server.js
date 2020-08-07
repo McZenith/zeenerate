@@ -19,7 +19,7 @@ app.use("/", (req, res) => {
   res.send(html);
 });
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 8080;
 
 // Launch the server
 app.listen(PORT, () => {

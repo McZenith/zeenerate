@@ -7,16 +7,10 @@
     "name": "Isaiah Awotide",
     "email": "awotideisaiah@yandex.com"
   },
-  "engines": {
-    "node": "12.x",
-    "npm": "6.x"
-  },
   "scripts": {
-    "start": "yoshi start",
+    "start:dev": "yoshi start",
     "build": "yoshi build",
-    "test": "yoshi test",
-    "lint": "yoshi lint",
-    "posttest": "npm run lint"
+    "start": "node dist/server.js"
   },
   "husky": {
     "hooks": {
@@ -43,16 +37,17 @@
   },
   "dependencies": {
     "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "i18next": "^19.1.0",
-    "react-i18next": "^11.3.2",
-    "react-responsive": "^8.1.0",
-    "velocity": "~0.7.0",
-    "wix-style-react": "^8.24.0",
-    "yoshi-template-intro": "^4.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0"
+    "react-i18next": "^11.3.2",
+    "react-responsive": "^8.1.0",
+    "react-router-dom": "^5.2.0",
+    "velocity": "~0.7.0",
+    "wix-style-react": "^8.24.0",
+    "yoshi-template-intro": "^4.1.0"
   },
   "jest": {
     "preset": "jest-yoshi-preset"
